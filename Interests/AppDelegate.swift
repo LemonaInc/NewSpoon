@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  Interests
-//
-//  Created by Duc Tran on 6/13/15.
-//  Copyright © 2015 Developer Inspirus. All rights reserved.
-//
+
 
 import UIKit
 
