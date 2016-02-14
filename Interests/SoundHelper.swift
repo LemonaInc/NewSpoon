@@ -25,7 +25,7 @@ extension HomeViewController {
     // Audio is initated here
     
     func setupAudio() {
-        let alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("", ofType: "mp3")!)
+        let alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Avion", ofType: "mp3")!)
         
         try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try? AVAudioSession.sharedInstance().setActive(true)

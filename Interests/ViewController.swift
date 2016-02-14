@@ -17,6 +17,7 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate
     @IBOutlet weak var loadingLabel: UILabel!
     @IBOutlet weak var searchBar: UISearchBar!
     
+    
     // entries and parser
     var parser: FeedParser?
     var entries: [FeedItem]?

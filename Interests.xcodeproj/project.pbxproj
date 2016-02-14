@@ -34,6 +34,9 @@
 		EAA15D3B1C707C600081AAC3 /* RssRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA15D371C707C600081AAC3 /* RssRecord.swift */; };
 		EAA15D3C1C707C600081AAC3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA15D381C707C600081AAC3 /* ListViewController.swift */; };
 		EAA15D3D1C707C600081AAC3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA15D391C707C600081AAC3 /* DetailsViewController.swift */; };
+		EAA15D411C70B5310081AAC3 /* Avion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D401C70B5310081AAC3 /* Avion.mp3 */; };
+		EAA15D431C70B7DF0081AAC3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA15D421C70B7DF0081AAC3 /* Quotes.swift */; };
+		EAA15D451C70BD070081AAC3 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA15D441C70BD070081AAC3 /* QuotesViewController.swift */; };
 		F55772411B2C65C100DF2649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55772401B2C65C100DF2649 /* AppDelegate.swift */; };
 		F55772461B2C65C100DF2649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55772441B2C65C100DF2649 /* Main.storyboard */; };
 		F55772481B2C65C100DF2649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55772471B2C65C100DF2649 /* Assets.xcassets */; };
@@ -92,6 +95,9 @@
 		EAA15D371C707C600081AAC3 /* RssRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RssRecord.swift; sourceTree = "<group>"; };
 		EAA15D381C707C600081AAC3 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		EAA15D391C707C600081AAC3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EAA15D401C70B5310081AAC3 /* Avion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Avion.mp3; sourceTree = "<group>"; };
+		EAA15D421C70B7DF0081AAC3 /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		EAA15D441C70BD070081AAC3 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		F557723D1B2C65C100DF2649 /* Interests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55772401B2C65C100DF2649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55772451B2C65C100DF2649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 		EAA15D351C707C380081AAC3 /* OtherRSSSwiftViewer */ = {
 			isa = PBXGroup;
 			children = (
+				EAA15D401C70B5310081AAC3 /* Avion.mp3 */,
 				EAA15D361C707C600081AAC3 /* Common.swift */,
 				EAA15D371C707C600081AAC3 /* RssRecord.swift */,
 				EAA15D381C707C600081AAC3 /* ListViewController.swift */,
@@ -222,7 +229,9 @@
 				EAA15D271C706ACE0081AAC3 /* ViewController.swift */,
 				F55772741B2C6C4300DF2649 /* InterestCollectionViewCell.swift */,
 				EA9C04371BF2570C0073BF2B /* SoundHelper.swift */,
+				EAA15D441C70BD070081AAC3 /* QuotesViewController.swift */,
 				F55772701B2C6A5400DF2649 /* Interest.swift */,
+				EAA15D421C70B7DF0081AAC3 /* Quotes.swift */,
 				F55772731B2C6AD000DF2649 /* Home */,
 				F55772721B2C6ACA00DF2649 /* App Design */,
 				F55772441B2C65C100DF2649 /* Main.storyboard */,
@@ -383,6 +392,7 @@
 				F55772481B2C65C100DF2649 /* Assets.xcassets in Resources */,
 				EAA15D341C70753A0081AAC3 /* menu@3x.png in Resources */,
 				EAA15D331C70753A0081AAC3 /* menu@2x.png in Resources */,
+				EAA15D411C70B5310081AAC3 /* Avion.mp3 in Resources */,
 				EAA15D161C7068340081AAC3 /* Caviar_Dreams_Bold.ttf in Resources */,
 				F55772461B2C65C100DF2649 /* Main.storyboard in Resources */,
 				EAA15D181C7068340081AAC3 /* CaviarDreams_Italic.ttf in Resources */,
@@ -422,6 +432,7 @@
 				F55772751B2C6C4300DF2649 /* InterestCollectionViewCell.swift in Sources */,
 				EAA15D251C7068EF0081AAC3 /* NSDate+FeedsDate.swift in Sources */,
 				EA9C04381BF2570C0073BF2B /* SoundHelper.swift in Sources */,
+				EAA15D451C70BD070081AAC3 /* QuotesViewController.swift in Sources */,
 				EAA15D201C7068A20081AAC3 /* FeedItem.swift in Sources */,
 				EAA15D0F1C70681B0081AAC3 /* JSButton.swift in Sources */,
 				EAA15D1F1C7068A20081AAC3 /* FeedChannel.swift in Sources */,
@@ -431,6 +442,7 @@
 				EAA15D0E1C70681B0081AAC3 /* JSColor.swift in Sources */,
 				EAA15D3B1C707C600081AAC3 /* RssRecord.swift in Sources */,
 				EA1946EC1BF1B58C00047542 /* MBAnimationView.m in Sources */,
+				EAA15D431C70B7DF0081AAC3 /* Quotes.swift in Sources */,
 				EAA15D261C7068EF0081AAC3 /* String+RemoveHTMLCharacters.swift in Sources */,
 				EAA15D101C70681B0081AAC3 /* JSLayer.swift in Sources */,
 				F55772411B2C65C100DF2649 /* AppDelegate.swift in Sources */,
