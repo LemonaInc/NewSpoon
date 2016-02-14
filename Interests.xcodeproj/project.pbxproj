@@ -27,6 +27,9 @@
 		EAA15D2B1C706E9B0081AAC3 /* NewSpoon-logo-white.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D291C706E9B0081AAC3 /* NewSpoon-logo-white.png */; };
 		EAA15D2C1C706E9B0081AAC3 /* NewSpoon-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D2A1C706E9B0081AAC3 /* NewSpoon-logo.png */; };
 		EAA15D2E1C7071A60081AAC3 /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D2D1C7071A60081AAC3 /* BackGround.png */; };
+		EAA15D321C70753A0081AAC3 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D2F1C70753A0081AAC3 /* menu.png */; };
+		EAA15D331C70753A0081AAC3 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D301C70753A0081AAC3 /* menu@2x.png */; };
+		EAA15D341C70753A0081AAC3 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA15D311C70753A0081AAC3 /* menu@3x.png */; };
 		F55772411B2C65C100DF2649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55772401B2C65C100DF2649 /* AppDelegate.swift */; };
 		F55772461B2C65C100DF2649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55772441B2C65C100DF2649 /* Main.storyboard */; };
 		F55772481B2C65C100DF2649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55772471B2C65C100DF2649 /* Assets.xcassets */; };
@@ -78,6 +81,9 @@
 		EAA15D291C706E9B0081AAC3 /* NewSpoon-logo-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewSpoon-logo-white.png"; sourceTree = "<group>"; };
 		EAA15D2A1C706E9B0081AAC3 /* NewSpoon-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewSpoon-logo.png"; sourceTree = "<group>"; };
 		EAA15D2D1C7071A60081AAC3 /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround.png; sourceTree = "<group>"; };
+		EAA15D2F1C70753A0081AAC3 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		EAA15D301C70753A0081AAC3 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		EAA15D311C70753A0081AAC3 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
 		F557723D1B2C65C100DF2649 /* Interests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55772401B2C65C100DF2649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55772451B2C65C100DF2649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -199,6 +205,9 @@
 				F55772731B2C6AD000DF2649 /* Home */,
 				F55772721B2C6ACA00DF2649 /* App Design */,
 				F55772441B2C65C100DF2649 /* Main.storyboard */,
+				EAA15D2F1C70753A0081AAC3 /* menu.png */,
+				EAA15D301C70753A0081AAC3 /* menu@2x.png */,
+				EAA15D311C70753A0081AAC3 /* menu@3x.png */,
 				F55772471B2C65C100DF2649 /* Assets.xcassets */,
 				F55772491B2C65C100DF2649 /* LaunchScreen.storyboard */,
 				EAA15D2D1C7071A60081AAC3 /* BackGround.png */,
@@ -351,12 +360,15 @@
 			files = (
 				F557724B1B2C65C100DF2649 /* LaunchScreen.storyboard in Resources */,
 				F55772481B2C65C100DF2649 /* Assets.xcassets in Resources */,
+				EAA15D341C70753A0081AAC3 /* menu@3x.png in Resources */,
+				EAA15D331C70753A0081AAC3 /* menu@2x.png in Resources */,
 				EAA15D161C7068340081AAC3 /* Caviar_Dreams_Bold.ttf in Resources */,
 				F55772461B2C65C100DF2649 /* Main.storyboard in Resources */,
 				EAA15D181C7068340081AAC3 /* CaviarDreams_Italic.ttf in Resources */,
 				EA9C043A1BF25A270073BF2B /* Wonder.mp3 in Resources */,
 				EAA15D2E1C7071A60081AAC3 /* BackGround.png in Resources */,
 				EAA15D191C7068340081AAC3 /* CaviarDreams.ttf in Resources */,
+				EAA15D321C70753A0081AAC3 /* menu.png in Resources */,
 				EAA15D2B1C706E9B0081AAC3 /* NewSpoon-logo-white.png in Resources */,
 				EAA15D171C7068340081AAC3 /* CaviarDreams_BoldItalic.ttf in Resources */,
 				EAA15D2C1C706E9B0081AAC3 /* NewSpoon-logo.png in Resources */,

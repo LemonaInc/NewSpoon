@@ -8,7 +8,7 @@
 
 import UIKit
 
-let kFeedParserExampleFeedSourceURL = "http://www.democracynow.org/democracynow.rss"
+let kFeedParserExampleFeedSourceURL = "http://www.democracynow.org/democracynow-blog.rss"
 
 class ViewController: UIViewController, UISearchBarDelegate, UITableViewDelegate, UITableViewDataSource, FeedParserDelegate {
     
