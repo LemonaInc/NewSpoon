@@ -34,22 +34,7 @@
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jra-lA-yRf" customClass="JSButton" customModule="Interests" customModuleProvider="target">
                                             <rect key="frame" x="-12" y="20" width="624" height="879"/>
-                                            <color key="backgroundColor" red="0.4865683913230896" green="0.87082892656326294" blue="0.92238038778305054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggM-AB-guU" customClass="JSButton" customModule="Interests" customModuleProvider="target">
-                                            <rect key="frame" x="-2" y="30" width="399" height="343"/>
-                                            <color key="backgroundColor" red="0.4865683913230896" green="0.87082892656326294" blue="0.92238038778305054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHh-DA-5Ff" customClass="JSButton" customModule="Interests" customModuleProvider="target">
-                                            <rect key="frame" x="-2" y="30" width="399" height="343"/>
-                                            <color key="backgroundColor" red="0.4865683913230896" green="0.87082892656326294" blue="0.92238038778305054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackGround.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUT-RW-KKc">
-                                            <rect key="frame" x="-45" y="-38" width="684" height="61"/>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0O-z1-op3">
-                                            <rect key="frame" x="-2" y="588" width="377" height="107"/>
-                                            <color key="backgroundColor" red="0.025253735482692719" green="0.82234889268875122" blue="0.96109050512313843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </button>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MBR-71-Dq1">
                                             <rect key="frame" x="0.0" y="87" width="600" height="452"/>
@@ -137,6 +122,16 @@
                                                 <outlet property="delegate" destination="Ii8-JT-tmC" id="8Rk-eV-stX"/>
                                             </connections>
                                         </collectionView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackGround.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUT-RW-KKc">
+                                            <rect key="frame" x="-45" y="-38" width="684" height="61"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0O-z1-op3">
+                                            <rect key="frame" x="-2" y="588" width="377" height="107"/>
+                                            <color key="backgroundColor" red="0.025253735482692719" green="0.82234889268875122" blue="0.96109050512313843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advance" translatesAutoresizingMaskIntoConstraints="NO" id="f8a-Vu-2WW">
+                                            <rect key="frame" x="150" y="597" width="75" height="62"/>
+                                        </imageView>
                                     </subviews>
                                 </view>
                                 <blurEffect style="light"/>
@@ -464,6 +459,7 @@
     <resources>
         <image name="BackGround.png" width="1920" height="1080"/>
         <image name="NewSpoon-logo-white.png" width="2000" height="1825"/>
+        <image name="advance" width="96" height="96"/>
         <image name="menu" width="85" height="85"/>
         <image name="r5" width="2519" height="1666"/>
     </resources>

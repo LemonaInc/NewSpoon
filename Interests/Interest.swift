@@ -24,23 +24,23 @@ class Interest
     static func createInterests() -> [Interest]
     {
         return [
-            Interest(title: "This Lake", description: "This Lake", featuredImage: UIImage(named: "r1")!),
+            Interest(title: "This Lake", description: "This Lake", featuredImage: UIImage(named: "thatface")!),
             
             
-            Interest(title: "This Tree", description: "This Tree", featuredImage: UIImage(named: "r2")!),
+            Interest(title: "This Tree", description: "This Tree", featuredImage: UIImage(named: "thatsmile")!),
             
             
-            Interest(title: "Bridge", description: "Bridge", featuredImage: UIImage(named: "r3")!),
+            Interest(title: "Bridge", description: "Bridge", featuredImage: UIImage(named: "color")!),
             
             
-            Interest(title: "Mountain", description: "Mountain", featuredImage: UIImage(named: "r4")!),
+            Interest(title: "Mountain", description: "Mountain", featuredImage: UIImage(named: "travel2")!),
             
             
-            Interest(title: "Park", description: "Park", featuredImage: UIImage(named: "r5")!),
+            Interest(title: "Park", description: "Park", featuredImage: UIImage(named: "photography")!),
             
             
             
-            Interest(title: "Grass", description: "Grass", featuredImage: UIImage(named: "r6")!),
+            Interest(title: "Grass", description: "Grass", featuredImage: UIImage(named: "backpack")!),
             
 
             
