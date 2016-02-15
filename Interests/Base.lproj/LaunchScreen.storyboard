@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewSpoon-logo-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="e8t-t4-K09">
-                                <rect key="frame" x="188" y="187" width="225" height="225"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="225" id="Q39-LE-6Bk"/>
-                                    <constraint firstAttribute="width" constant="225" id="udc-AB-0if"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kha-Gl-TJT">
                                 <rect key="frame" x="0.0" y="545" width="623" height="249"/>
                                 <color key="backgroundColor" red="0.72549019609999998" green="0.96470588239999999" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -31,6 +24,13 @@
                                 <rect key="frame" x="-23" y="571" width="623" height="249"/>
                                 <color key="backgroundColor" red="0.4865683913230896" green="0.87082892656326294" blue="0.92238038778305054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewSpoon-logo-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="e8t-t4-K09">
+                                <rect key="frame" x="188" y="187" width="225" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="Q39-LE-6Bk"/>
+                                    <constraint firstAttribute="width" constant="225" id="udc-AB-0if"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.30196078430000001" green="0.83137254900000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
